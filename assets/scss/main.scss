@@ -1,0 +1,6 @@
+// Import mixins and colour pallete
+
+@import './mixins.scss';
+body {
+  @include scrollbars(8px, 2rem, pink, red);
+}
